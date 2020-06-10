@@ -1,0 +1,16 @@
+.questioncss{
+    text-align:center;
+}
+.answercss{
+    
+    background-color: blue;
+    color:white;
+    
+}
+.fixed{
+    margin: 25px;
+    position: fixed;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+}
