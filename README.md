@@ -7,7 +7,7 @@ Some features of this cite are:
 
 # installation 
 you can try this cite here:
-
+ https://alreichard.github.io/Java-quiz/.
 
 
 # Usage:
