@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <title>High Score</title>
+</head>
+<body>
+    <h1 class = "questioncss" id="highScores">Scores</h1>
+    <div class ="fixedl" id="time"><a href="index.html">Quiz</a></div>
+    <script type="text/javascript">
+        var highScores = document.querySelector('#highScores');
+        var showHigh = [];
+        
+       showHigh = JSON.parse(localStorage.getItem("score"));
+        console.log(showHigh);
+for (var i = 0; i < showHigh.length;) {
+    var user = showHigh[i].User;
+    var score1 = showHigh[i].Score;
+    var holdIt = document.createElement("p");
+    holdIt.textContent = user + " got " + score1 + " right!";
+    console.log(holdIt)
+    highScores.appendChild(holdIt);
+    i++
+};
+    </script>
+    
+    
+    
+</body>
+</html>

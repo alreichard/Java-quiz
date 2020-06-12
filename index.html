@@ -8,8 +8,19 @@
 </head>
 <body>
     <h1 id = "question" class = "questioncss">Take the quiz</h1>
-    <button id = "answer1" class = "answercss">start</button>
-    <div class ="fixed" id="time">Time: 0</div>
+    <div class = "questioncss"><h2 id = "score" class= "hide">0</h2></div>
+    <div class= "questioncss"><button id = "start" class = "answercss">start</button></div>
+    <div class= "questioncss"><button id = "answer1" class = "answercss hide"></button></div>
+    <div class= "questioncss"><button id = "answer2" class = "answercss hide"></button></div>
+    <div class= "questioncss"><button id = "answer3" class = "answercss hide"></button></div>
+    <div class= "questioncss"><button id = "answer4" class = "answercss hide"></button></div>
+    <div class ="fixedr" id="time">Time: 90</div>
+    <div class ="fixedl" id="high"><a href="highScore.html">Score history</a></div>
+    <form id="action" class="record hide">
+       <div class="questioncss"><label for="fname">initials:</label>
+        <input type="text" id="fname" name="fname"><br><br></div>
+        <div class="questioncss"><input type="submit" value="Submit" id="submit"></div>
+      </form>
     <script src="quiz.js"></script>
 
 </body>

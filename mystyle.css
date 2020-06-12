@@ -5,12 +5,37 @@
     
     background-color: blue;
     color:white;
+    margin:5px;
+    font-size: 20px;
+    text-align: center;
+    
     
 }
-.fixed{
+.fixedr{
     margin: 25px;
     position: fixed;
   top: 0;
   right: 0;
   font-size: 20px;
 }
+.fixedl{
+    margin: 25px;
+    position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+.answer1css{
+    
+    background-color:red;
+    color:white;
+    margin:5px
+    
+}
+
+
